@@ -9,7 +9,7 @@ connectDB();
 
 app.get('/', (req, res) => res.send('Main page of app'));
 
-app.use('/chats', chats)
+app.use('/api/chats', chats)
 
 const port = process.env.PORT || 8082;
 
