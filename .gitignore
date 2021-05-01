@@ -1,6 +1,6 @@
 # My ignores
-# config.json holds API keys
-config.json
+# secret.json holds API keys
+secret.json
 
 # Logs
 logs
