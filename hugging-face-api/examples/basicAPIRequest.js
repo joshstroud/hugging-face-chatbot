@@ -15,6 +15,6 @@ query({
     "inputs": {
         "past_user_inputs": [],
         "generated_responses": [],
-        "text": "Hey, I'm having some mental health problems. Do you have a second to talk?"
+        "text": "Hey! Where are you located these days?"
     },
 }, console.log);
