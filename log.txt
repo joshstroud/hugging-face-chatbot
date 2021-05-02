@@ -1,0 +1,1017 @@
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?"
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.'
+  ],
+  promptText: "What's your age?"
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?",
+    "What's your age?"
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.'
+  ],
+  promptText: 'How many years old are you?'
+}
+I'm a little over a year old.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?",
+    "What's your age?",
+    'How many years old are you?'
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.',
+    "I'm a little over a year old."
+  ],
+  promptText: 'How many years old are you?'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?",
+    "What's your age?",
+    'How many years old are you?',
+    'How many years old are you?'
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.',
+    "I'm a little over a year old."
+  ],
+  promptText: 'How many years old are you?'
+}
+text response from bot I'm a little over a year old.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?",
+    "What's your age?",
+    'How many years old are you?',
+    'How many years old are you?',
+    'How many years old are you?'
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.',
+    "I'm a little over a year old.",
+    "I'm a little over a year old."
+  ],
+  promptText: 'How many years old are you?'
+}
+{
+  pastUserInputs: [
+    "What's your favorite color?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your name?",
+    "What's your age?",
+    "What's your age?",
+    'How many years old are you?',
+    'How many years old are you?',
+    'How many years old are you?',
+    'How many years old are you?'
+  ],
+  generatedResponses: [
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'I like blue.',
+    'Blue. I like it.',
+    'Blue. I like it.',
+    "I'm a little over a year old.",
+    "I'm a little over a year old."
+  ],
+  promptText: "I'm feeling a little blue."
+}
+text response from bot: I'm a little over a year old.
+text response from bot: I'm a little over a year old.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+text response from bot: I'm a little over a year old.
+text response from bot: I'm
+text response from bot: I'm
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: I think it's a reference to the movie The Last Airbender.
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+{
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: I think it's a reference to the movie The Last Airbender.
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa1e7d452f54afad6f71,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:02:22.145Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa1e7d452f54afad6f71,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:02:22.145Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5276d72754ba5f2947,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:14.844Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: I think it's a reference to the movie The Last Airbender.
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa1e7d452f54afad6f71,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:02:22.145Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5276d72754ba5f2947,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:14.844Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5576d72754ba5f2949,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:17.885Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa1e7d452f54afad6f71,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:02:22.145Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5276d72754ba5f2947,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:14.844Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5576d72754ba5f2949,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:17.885Z,
+      __v: 0
+    },
+    {
+      _id: 608dfabad0073054d9f4fccc,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:04:58.575Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: I think it's a reference to the movie The Last Airbender.
+Added message to chat:  {
+  _id: 608df80ac7cef15444544262,
+  messages: [
+    {
+      _id: 608df810c7cef15444544263,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:36.510Z,
+      __v: 0
+    },
+    {
+      _id: 608df813c7cef15444544265,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:53:39.019Z,
+      __v: 0
+    },
+    {
+      _id: 608df896dcd39e545b175d51,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:50.011Z,
+      __v: 0
+    },
+    {
+      _id: 608df898dcd39e545b175d53,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T00:55:52.629Z,
+      __v: 0
+    },
+    {
+      _id: 608df9d07a987754a3d76370,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:01:04.362Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa1e7d452f54afad6f71,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:02:22.145Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5276d72754ba5f2947,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:14.844Z,
+      __v: 0
+    },
+    {
+      _id: 608dfa5576d72754ba5f2949,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:03:17.885Z,
+      __v: 0
+    },
+    {
+      _id: 608dfabad0073054d9f4fccc,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:04:58.575Z,
+      __v: 0
+    },
+    {
+      _id: 608dfabdd0073054d9f4fcce,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608df80ac7cef15444544262,
+      sent_date: 2021-05-02T01:05:01.308Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+undefined
+text response from bot: I think it's a reference to the movie The Last Airbender.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+Added message to chat:  {
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: I think it's a reference to the movie The Last Airbender.
+Added message to chat:  {
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+{
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+Added message to chat:  {
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7652ea7e551cc3b474,
+      bot: false,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:06.047Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+text response from bot: How many limbs does a lion have?
+Added message to chat:  {
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7652ea7e551cc3b474,
+      bot: false,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:06.047Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7752ea7e551cc3b476,
+      bot: true,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:07.983Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+{
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7652ea7e551cc3b474,
+      bot: false,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:06.047Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7752ea7e551cc3b476,
+      bot: true,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:07.983Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+mongodb+srv://admin:admin@dev.dxl5c.mongodb.net/dev?retryWrites=true&w=majority
+Server running on port 8082
+MongoDB is Connected...
+text response from bot: How many years have you lived in San Francisco?
+{
+  _id: 608dfb6852ea7e551cc3b46f,
+  messages: [
+    {
+      _id: 608dfb6d52ea7e551cc3b470,
+      bot: false,
+      message: 'How many limbs does an elephant have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.246Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb6d52ea7e551cc3b472,
+      bot: true,
+      message: "I think it's a reference to the movie The Last Airbender.",
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:07:57.929Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7652ea7e551cc3b474,
+      bot: false,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:06.047Z,
+      __v: 0
+    },
+    {
+      _id: 608dfb7752ea7e551cc3b476,
+      bot: true,
+      message: 'How many limbs does a lion have?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:08:07.983Z,
+      __v: 0
+    },
+    {
+      _id: 608dfbb2fe88ee552d1124af,
+      bot: false,
+      message: 'How many years have you lived in San Francisco?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:09:06.999Z,
+      __v: 0
+    },
+    {
+      _id: 608dfbb5fe88ee552d1124b1,
+      bot: true,
+      message: 'How many years have you lived in San Francisco?',
+      chat_id: 608dfb6852ea7e551cc3b46f,
+      sent_date: 2021-05-02T01:09:09.221Z,
+      __v: 0
+    }
+  ],
+  __v: 0
+}

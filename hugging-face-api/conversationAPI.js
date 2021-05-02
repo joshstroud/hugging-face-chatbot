@@ -26,6 +26,10 @@ function getConversationResponse( { pastUserInputs, generatedResponses, promptTe
             "generated_responses": generatedResponses,
             "text": promptText
         },
+    })
+    .then(res => {
+        // console.log(res.data.generated_text);
+        return res.data.generated_text;
     });
 }
 
