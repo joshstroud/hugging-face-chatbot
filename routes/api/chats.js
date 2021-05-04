@@ -19,9 +19,23 @@ router.post('/', (req, res) => {
         .catch(err => res.status(400).json({ error: 'Unable to create chat'}));    
 });
 
+// return chats with all data, not sure why I would want this
+// router.get('/', (req, res) => {
+//     chatModels.chat.find()
+//         .then(chats => res.json(chats))
+//         .catch(err => res.status(404).json({ nochatsfound: 'No chats found'}));
+// })
+
 router.get('/', (req, res) => {
     chatModels.chat.find()
-        .then(chats => res.json(chats))
+        .then(chats => {
+            // only return last message in chat for getting all chats
+            const shortChats = chats.map(chat => {
+                chat.messages = [chat.messages[chat.messages.length - 1]];
+                return chat;
+            })
+            res.json(shortChats);
+        })
         .catch(err => res.status(404).json({ nochatsfound: 'No chats found'}));
 })
 
