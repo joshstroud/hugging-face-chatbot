@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const axios = require('axios');
-
+const cors = require('cors');
 const bodyParser = require('body-parser')
 
 const conversationAPI = require('../../hugging-face-api/conversationAPI')
@@ -11,6 +11,8 @@ const chatModels = require('../../models/Chat');
 // const Chat = require('../../models/Chat');
 
 router.use(bodyParser.json());
+
+router.use(cors());
 
 router.post('/', (req, res) => {
     console.log('Created chat');
@@ -27,6 +29,8 @@ router.post('/', (req, res) => {
 // })
 
 router.get('/', (req, res) => {
+    console.log('Get all chats');
+
     chatModels.chat.find()
         .then(chats => {
             // only return last message in chat for getting all chats
@@ -40,6 +44,8 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:chatId', (req, res) => {
+    console.log(`Get chat with id ${req.params.chatId}`);
+
     chatModels.chat.findById(req.params.chatId)
         .then(chat => res.json(chat))
         .catch(err => res.status(404).json( {nochatsfound: 'Chat with given id not found'}));
@@ -49,6 +55,8 @@ router.get('/:chatId', (req, res) => {
 // bug here, doesn't return the full chat after bot response, need to fix
 // Just do a get request after for now.
 router.post('/:chatId', (req, res) => {
+    console.log(`Send message "${req.body.message}" to chat id ${req.params.chatId}`);
+
     const chatId = req.params.chatId;
     const message = Object.assign(req.body, { chat_id: chatId });
 
@@ -58,18 +66,28 @@ router.post('/:chatId', (req, res) => {
         return createBotMessageInChat(chatId);
     })
     .then(chat => {
-        console.log(chat);
+        // console.log(chat);
         res.json(chat)
     });
 });
-    
+
+router.delete('/:chatId', (req, res) => {
+    const chatId = req.params.chatId;
+
+    console.log(`delete chat with id ${chatId}`);
+
+    chatModels.chat.findByIdAndDelete(chatId)
+        .then(chat => res.json({}))
+        .catch(err => res.status(400).json({ error: 'Chat in DELETE not found'}));
+});
+
 function createBotMessageInChat(chatId) {
     return chatModels.chat.findById(chatId).then(chat => {
         let APIInput = parseMessagesForConversationAPI(chat);
         return conversationAPI.getConversationResponse(APIInput);
     })
     .then(textResponse => {
-        console.log('text response from bot:', textResponse)
+        console.log(`text response from bot "${textResponse}"`)
         const message = {
             bot: true,
             message: textResponse,
