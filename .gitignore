@@ -1,6 +1,6 @@
 # My ignores
 # default.json holds config and API keys so ignore for security
-default.json
+# default.json
 
 # Logs
 logs
