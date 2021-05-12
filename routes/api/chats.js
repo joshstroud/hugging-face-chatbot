@@ -3,9 +3,9 @@ const router = express.Router();
 
 const axios = require('axios');
 const cors = require('cors');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 
-const conversationAPI = require('../../hugging-face-api/conversationAPI')
+const conversationAPI = require('../../hugging-face-api/conversationAPI');
 
 const chatModels = require('../../models/Chat');
 // const Chat = require('../../models/Chat');
