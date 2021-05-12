@@ -2,6 +2,8 @@ const express = require('express');
 
 const connectDB = require('./config/db');
 
+
+const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const expressSession = require('express-session')({
@@ -34,9 +36,17 @@ connectDB();
 // passport.serializeUser(UserModel.serializeUser());
 // passport.deserializeUser(UserModel.deserializeUser());
 
-app.get('/', (req, res) => res.send('Main page of app'));
-
 app.use('/api/chats', chats)
+
+const frontendBuildPath = path.join(__dirname, 'frontend', 'build');
+const frontendPublicPath = path.join(__dirname, 'frontend', 'public');
+
+app.use(express.static(frontendBuildPath));
+app.use(express.static(frontendPublicPath));
+
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'))
+// });
 
 const port = process.env.PORT || 8082;
 
