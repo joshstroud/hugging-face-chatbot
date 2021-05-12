@@ -44,7 +44,7 @@ const frontendPublicPath = path.join(__dirname, 'frontend', 'public');
 app.use(express.static(frontendBuildPath));
 app.use(express.static(frontendPublicPath));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(frontendBuildPath);
 });
 
