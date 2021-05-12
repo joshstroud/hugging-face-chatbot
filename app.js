@@ -44,9 +44,9 @@ const frontendPublicPath = path.join(__dirname, 'frontend', 'public');
 app.use(express.static(frontendBuildPath));
 app.use(express.static(frontendPublicPath));
 
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'))
-// });
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'))
+});
 
 const port = process.env.PORT || 8082;
 
