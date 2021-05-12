@@ -45,7 +45,7 @@ app.use(express.static(frontendBuildPath));
 app.use(express.static(frontendPublicPath));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'))
+    res.sendFile(frontendBuildPath);
 });
 
 const port = process.env.PORT || 8082;
